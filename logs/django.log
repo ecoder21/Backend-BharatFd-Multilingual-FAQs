@@ -1,0 +1,40 @@
+Watching for file changes with StatReloader
+D:\data recovery\volume c\code\bharatFD\faq_project\faqs\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\data recovery\volume c\code\bharatFD\faq_project\faqs\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\data recovery\volume c\code\bharatFD\faq_project\faqs\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\data recovery\volume c\code\bharatFD\faq_project\faqs\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\data recovery\volume c\code\bharatFD\faq_project\faqs\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\data recovery\volume c\code\bharatFD\faq_project\faqs\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/faqs/?lang=fr HTTP/1.1" 200 128
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2173
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2173
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4345
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 6178
+"GET /admin/faqs/faq/ HTTP/1.1" 200 8753
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/faqs/faq/add/ HTTP/1.1" 200 15566
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/faqs/faq/add/ HTTP/1.1" 302 0
+"GET /admin/faqs/faq/ HTTP/1.1" 200 9232
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /admin/faqs/faq/add/ HTTP/1.1" 200 15566
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/faqs/faq/ HTTP/1.1" 200 9016
+"GET /admin/faqs/faq/2/change/ HTTP/1.1" 200 16585
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/faqs/faq/ HTTP/1.1" 200 9016
