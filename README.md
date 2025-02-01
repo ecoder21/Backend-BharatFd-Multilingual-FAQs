@@ -6,37 +6,37 @@ This project is a Django-based FAQ system that provides an API for retrieving fr
 
 🌍 Supported Languages
 
-Hindi (hi)
+> Hindi (hi)
 
-Bengali (bn)
+> Bengali (bn)
 
-Spanish (es)
+> Spanish (es)
 
-French (fr)
+> French (fr)
 
-German (de)
+> German (de)
 
-Chinese (zh)
+> Chinese (zh)
 
-Arabic (ar)
+> Arabic (ar)
 
-Russian (ru)
+> Russian (ru)
 
-Japanese (ja)
+> Japanese (ja)
 
-Portuguese (pt)
+> Portuguese (pt)
 
-🛠 Prerequisites
+🛠 PREREQUISITES
 
 Ensure you have the following installed before proceeding:
 
-Python 3.9+
+>Python 3.9+
 
-Docker & Docker Compose
+>Docker & Docker Compose
 
-Redis (if not using Docker)
+>Redis (if not using Docker)
 
-🚀 Features
+🚀 \FEATURES
 
 Multi-language support: Retrieve FAQs in different languages using the lang query parameter.
 
@@ -72,7 +72,7 @@ docker-compose up --build
 
 Clone the repository
 
-git clone https://github.com/your-repo/faq-api.git
+git clone https://github.com/ecoder21/Backend-BharatFd-Multilingual-FAQs.git
 cd faq-api
 
 Set up a virtual environment and install dependencies
@@ -89,7 +89,7 @@ Start the development server
 
 python manage.py runserver
 
-🏃 Setting Up Redis for Caching
+🏃SETTING UP REDIS FOR CACHING
 
 If using Redis separately, you can pull and run the Redis container:
 
@@ -111,9 +111,9 @@ http://127.0.0.1:8000/admin
 
 Default Admin Credentials:
 
-Username: admin
+Username: akanksha
 
-Password: admin
+Password: akanksha
 
 🔹 Retrieve FAQs
 
@@ -122,25 +122,6 @@ Get FAQs in a specific language:
 Request:
 
 GET /api/faqs/?lang=<language_code>
-
-Example:
-
-GET http://127.0.0.1:8000/api/faqs/?lang=fr
-
-Response:
-
-[
-    {
-        "id": 1,
-        "question": "Quelle est votre politique de retour ?",
-        "answer": "Nous acceptons les retours sous 30 jours."
-    },
-    {
-        "id": 2,
-        "question": "Comment puis-je contacter le service client ?",
-        "answer": "Vous pouvez nous contacter par email à support@example.com ou par téléphone au +33 1 23 45 67 89."
-    }
-]
 
 Default Language (English):
 
