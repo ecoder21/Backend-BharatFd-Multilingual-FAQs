@@ -127,21 +127,6 @@ Default Language (English):
 
 GET http://127.0.0.1:8000/api/faqs
 
-Response:
-
-[
-    {
-        "id": 1,
-        "question": "What is your return policy?",
-        "answer": "We accept returns within 30 days."
-    },
-    {
-        "id": 2,
-        "question": "How can I contact customer support?",
-        "answer": "You can contact us by email at support@example.com or by phone at +1 555 123 4567."
-    }
-]
-
 🤝 Contribution Guidelines
 
 Fork the repository and create a new branch
